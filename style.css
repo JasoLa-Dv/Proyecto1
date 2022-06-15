@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -20,6 +21,7 @@ h2{
 }
 h3{
     font-size: 2em;
+    
     
 }
 p{
@@ -194,7 +196,67 @@ header a:hover{
     padding: 200px 12px;
 }
 
+#caracteristicas ul{
+    margin: 0;
+    padding: 0;
+}
+
 #caracteristicas li{
-    margin: 16px 0px;
+    margin: 20px;
     font-weight: bold;
+}
+
+/* Footer link */
+footer{
+    background-color: black;
+    padding: 70px 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    
+}
+
+.footer-col a {
+    color: white;
+    text-decoration: none;
+
+}
+.footer-col a:hover {
+    color: darksalmon;
+
+}
+
+
+.footer-col li{
+padding: 20px 20px;
+}
+
+.footer-col ul{
+    padding: 0;
+    }
+
+.footer-col h4{
+    font-size: 2em;
+    color: white;
+
+}
+
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40Px;
+    border-radius: 50%;
+    color: #ffffff;
 }
