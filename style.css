@@ -14,11 +14,13 @@ h1{
     padding: 20px;
 }
 h2{
-    font-size: 2.7em;
+    font-size: 3em;
+    font-weight: bold;
     
 }
 h3{
     font-size: 2em;
+    
 }
 p{
     font-size: 1.25em;
@@ -30,7 +32,7 @@ li{
     font-size: 1.25em;
 }
 button{
-  font-size: 1.5em;
+font-size: 1.5em;
 font-weight: bold;
 padding: 10px 30px;
 border-radius: 15px;
@@ -44,10 +46,16 @@ button:hover{
     background-color:rgb(149, 92, 73);
 }
 .container{
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
 
 }
+
+.color-dcuero{
+
+    color: darksalmon;
+}
+
 header{
     background-color: whitesmoke;
 
@@ -84,6 +92,8 @@ header a{
 header a:hover{
     color: darksalmon;
 }
+
+/* Section de Nuestras Manos */
 #centro{
     display: flex;
     align-items: center;
@@ -93,10 +103,98 @@ header a:hover{
     height: 90vh;
     color: white;
     background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), 
-    
     url(fotos/fabricacion.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 
+}
+
+/* Section somos Dcuero Line */
+
+#somos-dcuero .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+/* Section Nuestros Productos */
+
+#nuestros-productos {
+    background-color: rgb(25, 25,25);
+    color: white;
+    text-align:center;
+    margin: 10px;
+}
+
+#nuestros-productos .container {
+    padding: 150px 0px;
+    
+}
+#nuestros-productos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-productos p{
+    display: none;
+}
+
+#nuestros-productos button{
+    display: none;
+}
+    
+      
+#nuestros-productos .productos{
+    background-position: center center;
+    background-size: cover;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.ofertas:first-child {
+    background-image: url("fotos/zapato.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 30px;
+    
+}
+
+
+.ofertas:nth-child(2) {
+    background-image: url(fotos/botin.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 30px;
+    
+}
+
+
+.ofertas:nth-child(3) {
+    background-image: url(./fotos/zapatilla.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 30px;
+}
+.ofertas:nth-child(4) {    
+    background-image: url(./fotos/bototo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 30px;
+}
+
+/* Section ofertas  */
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
 }
