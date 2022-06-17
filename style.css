@@ -28,6 +28,7 @@ p{
     font-size: 1.25em;
 }
 ul{
+
     list-style: none;
 }
 li{
@@ -67,7 +68,7 @@ header .logo{
     padding: 25px 30px;
     font-weight: bold;
     color: darksalmon;
-    font-size: 1.7em;
+    font-size: 3em;
 
 
 }
@@ -89,6 +90,7 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: black;
+    font-size: 2.5em;
 }
 
 header a:hover{
@@ -145,7 +147,6 @@ header a:hover{
     display: none;
 }
     
-      
 #nuestros-productos .productos{
     background-position: center center;
     background-size: cover;
@@ -165,7 +166,7 @@ header a:hover{
 
 
 .ofertas:nth-child(2) {
-    background-image: url(fotos/botin.jpg);
+    background-image: url("fotos/botin.jpg");
     background-position: center center;
     background-size: cover;
     height: 350px;
@@ -175,14 +176,14 @@ header a:hover{
 
 
 .ofertas:nth-child(3) {
-    background-image: url(./fotos/zapatilla.jpg);
+    background-image: url("fotos/zapatilla.jpg");
     background-position: center center;
     background-size: cover;
     height: 350px;
     border-radius: 30px;
 }
 .ofertas:nth-child(4) {    
-    background-image: url(./fotos/bototo.jpg);
+    background-image: url("fotos/bototo.jpg");
     background-position: center center;
     background-size: cover;
     height: 350px;
@@ -208,7 +209,7 @@ header a:hover{
 
 /* Footer link */
 footer{
-    background-color: black;
+    background-color: rgb(76, 72, 72);
     padding: 70px 0;
 }
 
@@ -245,8 +246,12 @@ padding: 20px 20px;
 
 .footer-col h4{
     font-size: 2em;
-    color: white;
+    color:rgb(30, 29, 29);
 
+}
+
+.footer-col .logo{
+    color: darksalmon;
 }
 
 .footer-col .social-link a{
@@ -259,4 +264,91 @@ padding: 20px 20px;
     line-height: 40Px;
     border-radius: 50%;
     color: #ffffff;
+}
+
+/* Responsive */
+
+@media (min-width: 720px){
+    hearder{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    header .logo {
+      
+        font-size: 1.75em;
+}
+
+    header a{
+  
+    font-size: 1.2em;
+}
+
+
+#somos-dcuero  .container{
+display: flex;
+justify-content:center ;
+padding: 100px 12px;
+
+}
+
+#somos-dcuero  .texto{
+   width: 50%;
+   text-align: initial;
+   padding: 0px 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+    
+    }
+#somos-dcuero .img-container{
+    background-image: url("fotos/nosotros.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 2000px;
+    border-radius: 70px;
+}
+
+#somos-dcuero h2{
+    margin-top: 0px;
+}
+
+#nuestros-productos{
+    margin: 0px;
+}
+
+#nuestros-productos .container{
+    padding: 50px 0px;
+}
+
+#nuestros-productos .productos{
+display: flex;
+justify-content: space-between;
+
+
+}
+#nuestros-productos .ofertas{
+    height: 460px;
+    width: 600px;
+    margin: 10px;
+    color: darksalmon;
+    background-size: cover;
+    background-position: center center;
+
+
+
+
+}
 }
