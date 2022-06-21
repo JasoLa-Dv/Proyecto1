@@ -225,6 +225,15 @@ footer{
     padding: 70px 0;
 }
 
+.logo-footer{
+   /*  color: darksalmon;
+    font-size: 1.25em; */
+    font-weight: bold;
+    color: darksalmon;
+    font-size: 3em;
+    
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -244,9 +253,7 @@ footer{
 }
 .footer-col a:hover {
     color: darksalmon;
-
 }
-
 
 .footer-col li{
 padding: 20px 20px;
@@ -258,12 +265,6 @@ padding: 20px 20px;
 
 .footer-col h4{
     font-size: 2em;
-    color:rgb(30, 29, 29);
-
-}
-
-.footer-col .logo{
-    color: darksalmon;
 }
 
 .footer-col .social-link a{
